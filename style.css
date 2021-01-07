@@ -19,8 +19,8 @@ h3 {
     height: 250px;
     margin: auto;
     padding: 0;
+    border: 20px solid white;
     border-radius: 10px;
-    border-collapse: separate;
 }
 
 .greeting {
@@ -38,11 +38,35 @@ h3 {
     font-family: monospace;
     font-size: 1.7rem;
     background-color: rgb(243, 243, 243);
-    
-}
+    }
 
 .bottom {
     width: 400px;
     height: 50px;
     background-color: red;
 }
+
+#background {
+    justify-content: center;
+    align-items: center;  
+}
+
+#button {
+    font-family: monospace;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#color-button {
+    font-family: monospace;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#background {
+    font-family: monospace;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+
